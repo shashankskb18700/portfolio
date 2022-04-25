@@ -7,9 +7,10 @@
 .home {
   font-family: "home";
   background-color: rgb(10, 10, 10);
+
   color: white;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .header {
@@ -17,10 +18,93 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 25px;
+  /* padding-bottom: 40px; */
   /* margin-right: 30px; */
 }
 
 @font-face {
   font-family: "home";
   src: url(/src/Assets/fonts/MonoLisa-Black.ttf);
+}
+
+/* img {
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 20%,
+    rgba(0, 0, 0, 0) 80%,
+    rgba(0, 0, 0, 0.65) 100%
+  );
+} */
+.main {
+  display: flex;
+  /* top: 300px; */
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: flex-end; */
+  /* height: 100vh; */
+
+  /* top: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  /* bottom: 0; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* position: ; */
+}
+
+.letter {
+  color: #f90a55;
+  /* font-size: calc(1em + 40vw); */
+  /* padding-top: 10%; */
+  padding-left: 50%;
+  font-size: 86vh;
+  /* font-weight: 900; */
+  text-shadow: -0.0075em 0.0075em 0 #fef2f6, 0.005em 0.005em 0 #f6a5c1,
+    0.01em 0.01em 0 #f7aac4, 0.015em 0.015em #f7aec7, 0.02em 0.02em 0 #f8b3ca,
+    0.025em 0.025em 0 #f8b7cd, 0.03em 0.03em 0 #f8bcd0,
+    0.035em 0.035em 0 #f9c0d3;
+  /* height: 20vh; */
+  /* height: 100vh; */
+  position: absolute;
+  transform: skewX(7deg);
+  /* margin-top: 5%; */
+}
+
+.main img {
+  /* margin-top: 200px; */
+  /* clip-path: circle(40% at 50% 50%); */
+  /* background-color: white; */
+}
+
+.text {
+  padding-left: 10%;
+  padding-top: 30vh;
+  /* margin-top: 14%; */
+  font-size: 7vh;
+  font-family: "special";
+}
+
+.special {
+  color: #f90a55;
+  /* font-size: calc(1em + 40vw); */
+  /* padding-top: 2%;
+  padding-left: 50%; */
+  /* font-size: 100vh; */
+  /* font-weight: 900; */
+  text-shadow: -0.0075em 0.0075em 0 #fef2f6, 0.005em 0.005em 0 #f6a5c1,
+    0.01em 0.01em 0 #f7aac4, 0.015em 0.015em #f7aec7, 0.02em 0.02em 0 #f8b3ca,
+    0.025em 0.025em 0 #f8b7cd, 0.03em 0.03em 0 #f8bcd0,
+    0.035em 0.035em 0 #f9c0d3;
+  /* height: 20vh; */
+  /* height: 100vh; */
+  /* position: absolute; */
+  /* transform: skewX(5deg); */
+}
+
+@font-face {
+  font-family: "special";
+  src: url(../../Assets/fonts/MonoLisa-Regular.ttf);
 }

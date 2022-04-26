@@ -6,7 +6,8 @@ import Header from "../Header/Header";
 const About = () => {
   return (
     <div className="about">
-      <Header></Header>
+      {/* <Header></Header> */}
+      <div style={{ background: "white", color: "black" }}>ABOUT</div>
       <div className="textImg">
         <div className="intro">
           Hey ,Hi there , myself Shashank shekhar , you can call me Shashank ,I
@@ -26,15 +27,17 @@ const About = () => {
 
       <div className="skills">
         <h2 style={{ textAlign: "center" }}>SKILLS</h2>
-        <p>
-          lorem ipsuEntrypoint main 4.76 MiB (6.37 MiB) = static/js/bundle.js
-          4.76 MiB main.3ab86f99ae756fb98f15.hot-update.js 6.29 KiB 8 auxiliary
-          assets cached modules 9.87 MiB (javascript) 1.39 MiB (asset) [cached]
-          952 modules runtime modules 28.6 KiB 14 modules
-          ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/component/About/About.css
-          3.19 KiB [built] [code generated] webpack 5.71.0 compiled successfully
-          in 1303 ms
-        </p>
+
+        <div className="scroller">
+          <div>node js</div>
+          <div>REACT js</div>
+          <div>Redux</div>
+          <div>Expressjs</div>
+          <div>Mongo db</div>
+          <div>Firebase</div>
+          <div>MYsql</div>
+          <div>Nignix</div>
+        </div>
       </div>
     </div>
   );

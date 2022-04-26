@@ -2,12 +2,14 @@
   background: rgb(10, 10, 10);
   color: white;
   width: 100vw;
-  /* height: 100vh; */
+  /* height: 100vh ; */
   font-family: "home";
+  /* overflow: hidden; */
 }
 .about img {
   width: 600px;
   /* height: 80vh; */
+  /* z-index: -7; */
 }
 
 .textImg {
@@ -22,6 +24,11 @@
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 0) 80%
   );
+  animation-name: mover;
+  /* position: fixed; */
+  /* -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
 }
 
 .intro {
@@ -44,7 +51,37 @@
   justify-content: center;
   /* margin-top: 40px; */
   height: 100vh;
-  z-index: -5;
-  position: inherit;
-  top: 0;
+  /* z-index: -5; */
+  /* position: inherit;
+  top: 0; */
+  /* -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+
+.scroller {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 400px;
+  padding-left: 40px;
+  margin-top: 40px;
+  overflow: auto;
+  background-color: aliceblue;
+  color: black;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+.scroller div {
+  padding-right: 400px;
+}
+
+@keyframes fade {
+  from {
+    transform: translateY(0%);
+  }
+
+  to {
+    transform: translateY(100%);
+  }
 }

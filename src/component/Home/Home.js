@@ -3,20 +3,14 @@ import { Boxo } from "../Box/Box";
 import BoxTh from "../BoxTh/BoxTh";
 
 import "./Home.css";
+import Header from "../Header/Header";
 
 import Pic from "../pic/pic";
 const Home = () => {
   return (
     <div className="home">
-      <div className="header">
-        <span>code by shashank.</span>
-        <span>
-          <span style={{ marginRight: "18px" }}>work</span>
-          <span style={{ marginRight: "18px" }}>about</span>
-          <span style={{ marginRight: "18px" }}>contacts</span>
-        </span>
-      </div>
       {/* <Boxo /> */}
+      <Header />
       <div className="main">
         <div className="text">
           <div>Hi</div>

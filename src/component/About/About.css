@@ -1,0 +1,50 @@
+.about {
+  background: rgb(10, 10, 10);
+  color: white;
+  width: 100vw;
+  /* height: 100vh; */
+  font-family: "home";
+}
+.about img {
+  width: 600px;
+  /* height: 80vh; */
+}
+
+.textImg {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-family: "monts";
+  width: 100vw;
+  padding-left: 5vw;
+  line-height: 29px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 80%
+  );
+}
+
+.intro {
+  padding-top: 9%;
+}
+@font-face {
+  font-family: "monts";
+  src: url("../../Assets/fonts/MonoLisa-Light.ttf");
+}
+
+@font-face {
+  font-family: "home";
+  src: url(/src/Assets/fonts/MonoLisa-Black.ttf);
+}
+
+.skills {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: center;
+  /* margin-top: 40px; */
+  height: 100vh;
+  z-index: -5;
+  position: inherit;
+  top: 0;
+}

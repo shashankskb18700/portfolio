@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  padding-left: 8%;
+  padding-right: 13%;
+  /* padding-bottom: 40px; */
+  /* margin-right: 30px; */
+}

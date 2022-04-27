@@ -2,9 +2,14 @@
   background: rgb(10, 10, 10);
   color: white;
   width: 100vw;
-  /* height: 100vh ; */
+  height: 100vh;
   font-family: "home";
-  /* overflow: hidden; */
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 .about img {
   width: 600px;
@@ -18,17 +23,35 @@
   font-size: 16px;
   font-family: "monts";
   width: 100vw;
+  height: 100vh;
   padding-left: 5vw;
   line-height: 29px;
-  background: linear-gradient(
+  scroll-snap-align: start;
+  /* text-shadow: 0 0 5px rgb(233, 12, 12), 0 0 25px rgb(224, 0, 0),
+    0 0 50px rgb(241, 7, 7), 0 0 100px rgb(245, 200, 110); */
+  /* clip: rect(0, auto, auto, 0); */
+  /* background: linear-gradient(
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 0) 80%
-  );
-  animation-name: mover;
+  ); */
+  background-color: rgb(10, 10, 10);
+  /* animation-name: mover; */
   /* position: fixed; */
   /* -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); */
+
+  /* position: absolute; */
+  /* display: block; */
+  /* margin: auto;
+  width: 100%; */
+  /* center the text wrapper vertically */
+  /* top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%); */
+  /* transform: translateY(-50%);
+  transition: top 0.5s ease-in-out;
+  transition-delay: 0s; */
 }
 
 .intro {
@@ -45,15 +68,27 @@
 }
 
 .skills {
-  display: flex;
+  display: block;
   /* align-items: center; */
   flex-direction: column;
   justify-content: center;
   /* margin-top: 40px; */
-  height: 100vh;
+  /* height: 100vh; */
   /* z-index: -5; */
   /* position: inherit;
   top: 0; */
+  /* -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+  /* opacity: 0.4; */
+  /* position: fixed; */
+  /* display: block; */
+  /* margin: auto; */
+  scroll-snap-align: start;
+  height: 100vh;
+  /* center the text wrapper vertically */
+  /* top: 50%; */
+  /* top: 100vh; */
   /* -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); */

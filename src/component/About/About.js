@@ -6,8 +6,8 @@ import Header from "../Header/Header";
 const About = () => {
   return (
     <div className="about">
-      {/* <Header></Header> */}
-      <div style={{ background: "white", color: "black" }}>ABOUT</div>
+      <Header></Header>
+      {/* <div style={{ background: "white", color: "black" }}>ABOUT</div> */}
       <div className="textImg">
         <div className="intro">
           Hey ,Hi there , myself Shashank shekhar , you can call me Shashank ,I

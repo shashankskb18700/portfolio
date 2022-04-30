@@ -30,39 +30,10 @@ const About = () => {
         </div>
       </div>
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-        <path
-          d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"
-          fill="rgb(162, 200, 238)"
-        />
-      </svg>
-
       <div className="skills">
         <h2 style={{ textAlign: "center" }}>SKILLS</h2>
 
         <div className="scroller">
-          <div className="thumb">
-            <a
-              style={{
-                display: "block",
-                width: "400px",
-                height: "100%",
-                // background:
-                //   "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://i.ibb.co/tX3Ss7c/Screenshot-2022-04-28-at-8-41-27-PM-copy.png)",
-                // backgroundSize: "0, 400px 300px",
-                background: `url(https://i.ibb.co/JxR9SJK/Screenshot-2022-04-28-at-8-41-27-PM-copy.png) no-repeat center /cover`,
-                backgroundColor: "black",
-
-                paddingTop: "300px",
-                transformStyle: "preserve-3d",
-                transition: "all 0.5s",
-              }}
-            >
-              {/* <i ></i> */}
-              <span>HTML</span>
-            </a>
-          </div>
-
           <div className="thumb">
             <a
               style={{
@@ -92,49 +63,306 @@ const About = () => {
               <span>HTML</span>
             </a>
           </div>
-          <div>
+
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "100%",
+                // background:
+                //   "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://i.ibb.co/tX3Ss7c/Screenshot-2022-04-28-at-8-41-27-PM-copy.png)",
+                // backgroundSize: "0, 400px 300px",
+                // background: `url(https://i.ibb.co/JxR9SJK/Screenshot-2022-04-28-at-8-41-27-PM-copy.png) no-repeat center /cover`,
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="cssSvg"
+            >
+              {/* <i ></i> */}
+              <span>CSS</span>
+            </a>
+          </div>
+
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "100%",
+                // background:
+                //   "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(https://i.ibb.co/tX3Ss7c/Screenshot-2022-04-28-at-8-41-27-PM-copy.png)",
+                // backgroundSize: "0, 400px 300px",
+                // background: `url(https://i.ibb.co/JxR9SJK/Screenshot-2022-04-28-at-8-41-27-PM-copy.png) no-repeat center /cover`,
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="jsSvg"
+            >
+              {/* <i ></i> */}
+              <span>JavaScript</span>
+            </a>
+          </div>
+
+          {/* <div>
             <img src="https://i.ibb.co/jyPN7S6/css.jpg"></img>
-          </div>
-          <div>
+          </div> */}
+
+          {/* <div>
             <img src="https://i.ibb.co/0DHgGVH/javascript.png"></img>
+          </div> */}
+
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "90%",
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="javaSvg"
+            >
+              {/* <i ></i> */}
+              <span>JAVA</span>
+            </a>
           </div>
-          <div>
+          {/* <div>
             <img src="https://i.ibb.co/8nCxGMC/java.jpg"></img>
+          </div> */}
+
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "90%",
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="pythonSvg"
+            >
+              {/* <i ></i> */}
+              <span>PYTHON</span>
+            </a>
           </div>
-          <div>
+
+          {/* <div>
             <img src="https://i.ibb.co/VxCrYrW/python.png"></img>
+          </div> */}
+
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "90%",
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="reactSvg"
+            >
+              {/* <i ></i> */}
+              <span>REACT JS</span>
+            </a>
           </div>
 
-          <div>
+          {/* <div>
             <img src="https://i.ibb.co/pK75S9S/reactjs.png"></img>
-          </div>
+          </div> */}
 
-          <div>
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "90%",
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="nodeSvg"
+            >
+              {/* <i ></i> */}
+              <span>NODE JS</span>
+            </a>
+          </div>
+          {/* <div>
             <img src="https://i.ibb.co/5R1PJXZ/nodjs.png"></img>
+          </div> */}
+
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "90%",
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="expressSvg"
+            >
+              {/* <i ></i> */}
+              <span>EXPRESS</span>
+            </a>
           </div>
-          <div>
+
+          {/* <div>
             <img src="https://i.ibb.co/3Fh938L/expressjs.png"></img>
+          </div> */}
+
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "90%",
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="reduxSvg"
+            >
+              {/* <i ></i> */}
+              <span>REDUX</span>
+            </a>
           </div>
-          <div>
+
+          {/* <div>
             <img src="https://i.ibb.co/m62h50J/redux.png"></img>
+          </div> */}
+
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "90%",
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="firebaseSvg"
+            >
+              {/* <i ></i> */}
+              <span>FIREBASE</span>
+            </a>
           </div>
-          <div>
+          {/* <div>
             <img src="https://i.ibb.co/XfBSBRK/firebase.png"></img>
+          </div> */}
+
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "90%",
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="mongoSvg"
+            >
+              {/* <i ></i> */}
+              <span>MONGO DB</span>
+            </a>
           </div>
-          <div>
+          {/* <div>
             <img src="https://i.ibb.co/m8hrPsh/monodb.png"></img>
-          </div>
+          </div> */}
 
-          <div>
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "90%",
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="sqlSvg"
+            >
+              {/* <i ></i> */}
+              <span>MY SQL</span>
+            </a>
+          </div>
+          {/* <div>
             <img src="https://i.ibb.co/vq17GJd/mysql.png"></img>
-          </div>
-          <div>
-            <img src="https://i.ibb.co/frxJx9f/webpack.png"></img>
-          </div>
+          </div> */}
 
-          <div>
-            <img src="https://i.ibb.co/GH7QS4j/git.png"></img>
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "90%",
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="webpackSvg"
+            >
+              {/* <i ></i> */}
+              <span>WEBPACKS</span>
+            </a>
           </div>
+          {/* <div>
+            <img src="https://i.ibb.co/frxJx9f/webpack.png"></img>
+          </div> */}
+
+          <div className="thumb">
+            <a
+              style={{
+                display: "block",
+                width: "400px",
+                height: "90%",
+                backgroundColor: "black",
+
+                paddingTop: "300px",
+                transformStyle: "preserve-3d",
+                transition: "all 0.5s",
+              }}
+              className="gitSvg"
+            >
+              {/* <i ></i> */}
+              <span>GIT</span>
+            </a>
+          </div>
+          {/* <div>
+            <img src="https://i.ibb.co/GH7QS4j/git.png"></img>
+          </div> */}
         </div>
       </div>
     </div>

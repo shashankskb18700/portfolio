@@ -13,16 +13,20 @@ const Home = () => {
       <Header />
       <div className="main">
         <div className="text">
-          <div>Hi</div>
+          {/* <div>Hi</div> */}
 
           <div>
             {" "}
-            I'M <span className="special">S</span>hashank{" "}
+            Hi There
+            <br></br>
+            I'm Shashank
+            {/* <span className="special">S</span>hashank{" "} */}
           </div>
-          <div>Web developer</div>
+
+          <div className="designation">Web developer | Competative coder</div>
         </div>
 
-        <div className="letter"> S </div>
+        <div className="letter"> S</div>
       </div>
       {/* <Boxo /> */}
       {/* <BoxTh /> */}

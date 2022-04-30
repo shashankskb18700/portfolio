@@ -72,6 +72,7 @@
 }
 
 .skills {
+  background: #f90a55;
   display: block;
   /* align-items: center; */
   flex-direction: column;
@@ -97,12 +98,17 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); */
 }
+.skills h2 {
+  font-stretch: normal;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
 
 .scroller {
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height: 400px;
+  height: 100vh;
   padding-left: 40px;
   margin-top: 40px;
   overflow: auto;
@@ -139,6 +145,9 @@
   margin: 70px auto;
   perspective: 1000px;
 }
+/* .thumb a span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+} */
 
 /* .thumb a {
   display: block;
@@ -180,6 +189,8 @@
   transform: rotateX(-89.99deg);
   transform-origin: top;
   z-index: 1;
+  font-family: fantasy;
+  font-size: 18px;
 }
 .thumb a:before {
   content: "";
@@ -204,5 +215,57 @@
 
 .fett {
   /* background-image: url(../../Assets/svg/html.svg); */
-  background: url(../../Assets/svg/html5-brands.svg) no-repeat center;
+  background: url(../../Assets/svg/icons8-html-5.svg) no-repeat center;
+}
+
+.cssSvg {
+  background: url(../../Assets/svg/icons8-css3.svg) no-repeat center;
+}
+
+.jsSvg {
+  background: url(../../Assets/svg/javascript.svg) no-repeat center;
+}
+
+.javaSvg {
+  background: url(../../Assets/svg/icons8-java.svg) no-repeat center;
+}
+
+.pythonSvg {
+  background: url(../../Assets/svg/icons8-python.svg) no-repeat center;
+}
+
+.reactSvg {
+  background: url(../../Assets/svg/reactjs.svg) no-repeat center;
+}
+
+.nodeSvg {
+  background: url(../../Assets/svg/icons8-node-js.svg) no-repeat center;
+}
+
+.expressSvg {
+  background: url(../../Assets/svg/express.png) no-repeat center;
+}
+
+.reduxSvg {
+  background: url(../../Assets/svg/redux.svg) no-repeat center;
+}
+
+.firebaseSvg {
+  background: url(../../Assets/svg/firebase.svg) no-repeat center;
+}
+.mongoSvg {
+  background: url(../../Assets/svg/MongoDB_Logo.svg) no-repeat center;
+}
+
+.sqlSvg {
+  background: url(../../Assets/svg/icons8-mysql-logo.svg) no-repeat center;
+  /* width: 200px; */
+}
+
+.webpackSvg {
+  background: url(../../Assets/svg/icons8-webpack.svg) no-repeat center;
+}
+
+.gitSvg {
+  background: url(../../Assets/svg/icons8-git.svg) no-repeat center;
 }

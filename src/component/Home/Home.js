@@ -4,6 +4,7 @@ import BoxTh from "../BoxTh/BoxTh";
 
 import "./Home.css";
 import Header from "../Header/Header";
+import im from "../../Assets/img/s.png";
 
 import Pic from "../pic/pic";
 const Home = () => {
@@ -26,7 +27,8 @@ const Home = () => {
           <div className="designation">Web developer | Competative coder</div>
         </div>
 
-        <div className="letter"> S</div>
+        {/* <div className="letter"> S</div> */}
+        <img src={im} className="nameI"></img>
       </div>
       {/* <Boxo /> */}
       {/* <BoxTh /> */}

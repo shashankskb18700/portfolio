@@ -10,7 +10,7 @@ import Pic from "../pic/pic";
 const Home = () => {
   return (
     <div className="home">
-      {/* <Boxo /> */}
+      {/* <Boxo /> */} 
       <Header />
       <div className="main">
         <div className="text">

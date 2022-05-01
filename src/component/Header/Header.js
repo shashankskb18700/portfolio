@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header">
       <span>code by shashank.</span>
       <span>
-        <Link to="/about">
+        <Link to="/work">
           <span style={{ marginRight: "18px" }}>work</span>
         </Link>
 

@@ -92,3 +92,17 @@
   /* border-radius: 15px; */
   z-index: 5;
 }
+
+a img {
+  width: 37px;
+  color: black;
+}
+.web {
+  width: 22%;
+  padding-bottom: 3%;
+}
+
+a {
+  text-decoration: none;
+  color: #f90a55;
+}

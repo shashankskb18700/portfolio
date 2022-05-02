@@ -5,7 +5,11 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="header">
-      <span>code by shashank.</span>
+      <Link to="/" style={{ color: "white" }}>
+        {" "}
+        <span>code by shashank.</span>
+      </Link>
+
       <span>
         <Link to="/work">
           <span style={{ marginRight: "18px" }}>work</span>
@@ -15,7 +19,12 @@ const Header = () => {
           <span style={{ marginRight: "18px" }}>about</span>
         </Link>
 
-        <span style={{ marginRight: "18px" }}>contacts</span>
+        <Link
+          to="/contact
+        "
+        >
+          <span style={{ marginRight: "18px" }}>contacts</span>
+        </Link>
       </span>
     </div>
   );

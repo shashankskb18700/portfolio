@@ -4,7 +4,7 @@ import "./About.css";
 import im from "../../Assets/img/superGlithc.png";
 import Header from "../Header/Header";
 
-import { ReactComponent as html } from "../../Assets/svg/html.svg";
+// import { ReactComponent as html } from "../../Assets/svg/html.svg";
 const About = () => {
   return (
     <div className="about">

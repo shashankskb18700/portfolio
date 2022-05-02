@@ -1,0 +1,29 @@
+.contact {
+  background: rgb(10, 10, 10);
+  color: white;
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: thi;
+  height: 89vh;
+}
+
+@font-face {
+  font-family: "thi";
+  src: url(../../Assets/fonts/MonoLisa-Bold.ttf);
+}
+.detComp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+}
+.detail {
+  margin-top: 40px;
+}
+
+.detail span {
+  margin-bottom: 3%;
+}
